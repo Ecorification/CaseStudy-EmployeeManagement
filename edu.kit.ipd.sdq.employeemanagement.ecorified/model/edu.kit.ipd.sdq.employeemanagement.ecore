@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ecore" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore" nsPrefix="ecore">
+  <eClassifiers xsi:type="ecore:EClass" name="RootContainer">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containedElements" upperBound="-1" containment="true">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eSubpackages name="datatypes" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore.datatypes" nsPrefix="datatypes"/>
+  <eSubpackages name="edu" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore.edu" nsPrefix="edu">
+    <eSubpackages name="kit" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit" nsPrefix="kit">
+      <eSubpackages name="ipd" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit.ipd" nsPrefix="ipd">
+        <eSubpackages name="sdq" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit.ipd.sdq" nsPrefix="sdq">
+          <eSubpackages name="employeemanagement" nsURI="edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit.ipd.sdq.employeemanagement" nsPrefix="employeemanagement">
+            <eClassifiers xsi:type="ecore:EClass" name="Employee" eSuperTypes="//edu/kit/ipd/sdq/employeemanagement/IEmployee">
+              <eOperations name="fire"/>
+              <eOperations name="hire">
+                <eParameters name="supervisor" eType="//edu/kit/ipd/sdq/employeemanagement/Manager"/>
+              </eOperations>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="salary">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EReference" name="supervisor" eType="//edu/kit/ipd/sdq/employeemanagement/Manager"/>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="EmployeeManagementTests">
+              <eOperations name="testModelCreation"/>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="Manager" eSuperTypes="//edu/kit/ipd/sdq/employeemanagement/Employee">
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="position">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+              </eStructuralFeatures>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="IEmployee" abstract="true" interface="true"/>
+          </eSubpackages>
+        </eSubpackages>
+      </eSubpackages>
+    </eSubpackages>
+  </eSubpackages>
+</ecore:EPackage>
