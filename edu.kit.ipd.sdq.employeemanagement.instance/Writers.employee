@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:RootContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="edu.kit.ipd.sdq.employeemanagement/ecore" xmlns:employeemanagement="edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit.ipd.sdq.employeemanagement">
+  <containedElements xsi:type="employeemanagement:Employee" name="Timur" supervisor="//@containedElements.1"/>
+  <containedElements xsi:type="employeemanagement:Manager" name="Heiko" supervisor="//@containedElements.2"/>
+  <containedElements xsi:type="employeemanagement:Manager" name="Erik" supervisor="//@containedElements.3"/>
+  <containedElements xsi:type="employeemanagement:Manager" name="Ralf"/>
+</ecore:RootContainer>

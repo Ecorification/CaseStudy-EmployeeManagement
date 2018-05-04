@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="edu.kit.ipd.sdq.employeemanagement/ecore" xmlns:employeemanagement="edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit.ipd.sdq.employeemanagement" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description edu.kit.ipd.sdq.employeemanagement/ecore.edu.kit.ipd.sdq.employeemanagement edu.kit.ipd.sdq.employeemanagement/ecore#//employeemanagement http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_GTTZME-XEeiuqNK-JcjJjw" selectedViews="_3enYsE-dEeiGbp0deyZhoA" version="12.1.0.201708031200">
+    <semanticResources>Writers.employee</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_3enYsE-dEeiGbp0deyZhoA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_cQ3qdU-cEeix04lL6rP9Uw" name="WritersHierarchy" repPath="#_cQvHkE-cEeix04lL6rP9Uw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']"/>
+        <target xmi:type="ecore:RootContainer" href="Writers.employee#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_cQ3DYE-cEeix04lL6rP9Uw" name="WritersHierarchy" uid="_cQvHkE-cEeix04lL6rP9Uw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_cQ3DYU-cEeix04lL6rP9Uw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_cQ3qcE-cEeix04lL6rP9Uw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_cRA0YE-cEeix04lL6rP9Uw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_cRA0YU-cEeix04lL6rP9Uw" type="Sirius" element="_cQ3DYE-cEeix04lL6rP9Uw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_cRBbcE-cEeix04lL6rP9Uw" type="2001" element="_cQ3qck-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_cRCCgE-cEeix04lL6rP9Uw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cRCCgU-cEeix04lL6rP9Uw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cRCpkE-cEeix04lL6rP9Uw" type="3003" element="_cQ3qc0-cEeix04lL6rP9Uw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cRCpkU-cEeix04lL6rP9Uw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRCpkk-cEeix04lL6rP9Uw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cRBbcU-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRBbck-cEeix04lL6rP9Uw" x="200" y="335" width="81" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_dgk-0E-cEeix04lL6rP9Uw" type="2001" element="_dgbN0E-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_dgll4E-cEeix04lL6rP9Uw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dgll4U-cEeix04lL6rP9Uw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dgll4k-cEeix04lL6rP9Uw" type="3003" element="_dgffQE-cEeix04lL6rP9Uw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dgll40-cEeix04lL6rP9Uw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dgll5E-cEeix04lL6rP9Uw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_dgk-0U-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dgk-0k-cEeix04lL6rP9Uw" x="200" y="265" width="81" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_fAocUE-cEeix04lL6rP9Uw" type="2001" element="_fAmAEE-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_fAocU0-cEeix04lL6rP9Uw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fAocVE-cEeix04lL6rP9Uw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fApDYE-cEeix04lL6rP9Uw" type="3003" element="_fAmAEU-cEeix04lL6rP9Uw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fApDYU-cEeix04lL6rP9Uw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fApDYk-cEeix04lL6rP9Uw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_fAocUU-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fAocUk-cEeix04lL6rP9Uw" x="200" y="195" width="81" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_hBxNoE-cEeix04lL6rP9Uw" type="2001" element="_hBuKUE-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_hBx0sE-cEeix04lL6rP9Uw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hBx0sU-cEeix04lL6rP9Uw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hBx0sk-cEeix04lL6rP9Uw" type="3003" element="_hBuxYE-cEeix04lL6rP9Uw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hBx0s0-cEeix04lL6rP9Uw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hBx0tE-cEeix04lL6rP9Uw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_hBxNoU-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hBxNok-cEeix04lL6rP9Uw" x="200" y="125" width="81" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_cRA0Yk-cEeix04lL6rP9Uw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_h4sOkE-cEeix04lL6rP9Uw" type="4001" element="_h4W3YE-cEeix04lL6rP9Uw" source="_cRBbcE-cEeix04lL6rP9Uw" target="_dgk-0E-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_h4s1oE-cEeix04lL6rP9Uw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4s1oU-cEeix04lL6rP9Uw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_h4s1ok-cEeix04lL6rP9Uw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4s1o0-cEeix04lL6rP9Uw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_h4s1pE-cEeix04lL6rP9Uw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4s1pU-cEeix04lL6rP9Uw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_h4sOkU-cEeix04lL6rP9Uw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_h4sOkk-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h4sOk0-cEeix04lL6rP9Uw" points="[0, 0, 0, 40]$[0, -40, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h4tcsE-cEeix04lL6rP9Uw" id="(0.49382716049382713,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h4tcsU-cEeix04lL6rP9Uw" id="(0.49382716049382713,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_iOPn0E-cEeix04lL6rP9Uw" type="4001" element="_iN63sE-cEeix04lL6rP9Uw" source="_dgk-0E-cEeix04lL6rP9Uw" target="_fAocUE-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_iOPn1E-cEeix04lL6rP9Uw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iOPn1U-cEeix04lL6rP9Uw" x="1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iOQO4E-cEeix04lL6rP9Uw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iOQO4U-cEeix04lL6rP9Uw" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iOQO4k-cEeix04lL6rP9Uw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iOQO40-cEeix04lL6rP9Uw" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_iOPn0U-cEeix04lL6rP9Uw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_iOPn0k-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iOPn00-cEeix04lL6rP9Uw" points="[0, -15, 0, 55]$[0, -55, 0, 15]"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ihmBoE-cEeix04lL6rP9Uw" type="4001" element="_ihdewE-cEeix04lL6rP9Uw" source="_fAocUE-cEeix04lL6rP9Uw" target="_hBxNoE-cEeix04lL6rP9Uw">
+          <children xmi:type="notation:Node" xmi:id="_ihmosE-cEeix04lL6rP9Uw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihmosU-cEeix04lL6rP9Uw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ihmosk-cEeix04lL6rP9Uw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihmos0-cEeix04lL6rP9Uw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ihmotE-cEeix04lL6rP9Uw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihmotU-cEeix04lL6rP9Uw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ihmBoU-cEeix04lL6rP9Uw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ihmBok-cEeix04lL6rP9Uw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ihmBo0-cEeix04lL6rP9Uw" points="[0, 0, 0, 40]$[0, -40, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ihmotk-cEeix04lL6rP9Uw" id="(0.49382716049382713,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ihmot0-cEeix04lL6rP9Uw" id="(0.49382716049382713,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_cQ3qck-cEeix04lL6rP9Uw" name="Timur" outgoingEdges="_h4W3YE-cEeix04lL6rP9Uw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="employeemanagement:Employee" href="Writers.employee#//@containedElements.0"/>
+      <semanticElements xmi:type="employeemanagement:Employee" href="Writers.employee#//@containedElements.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_cQ3qc0-cEeix04lL6rP9Uw" showIcon="false" labelPosition="node" color="209,209,209">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dgbN0E-cEeix04lL6rP9Uw" name="Heiko" outgoingEdges="_iN63sE-cEeix04lL6rP9Uw" incomingEdges="_h4W3YE-cEeix04lL6rP9Uw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.1"/>
+      <semanticElements xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_dgffQE-cEeix04lL6rP9Uw" showIcon="false" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_fAmAEE-cEeix04lL6rP9Uw" name="Erik" outgoingEdges="_ihdewE-cEeix04lL6rP9Uw" incomingEdges="_iN63sE-cEeix04lL6rP9Uw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.2"/>
+      <semanticElements xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_fAmAEU-cEeix04lL6rP9Uw" showIcon="false" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_hBuKUE-cEeix04lL6rP9Uw" name="Ralf" incomingEdges="_ihdewE-cEeix04lL6rP9Uw" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.3"/>
+      <semanticElements xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.3"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_hBuxYE-cEeix04lL6rP9Uw" showIcon="false" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@nodeMappings[name='employee']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_h4W3YE-cEeix04lL6rP9Uw" sourceNode="_cQ3qck-cEeix04lL6rP9Uw" targetNode="_dgbN0E-cEeix04lL6rP9Uw">
+      <target xmi:type="employeemanagement:Employee" href="Writers.employee#//@containedElements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_h4XecE-cEeix04lL6rP9Uw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@edgeMappings[name='supervisor']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_h4XecU-cEeix04lL6rP9Uw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@edgeMappings[name='supervisor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iN63sE-cEeix04lL6rP9Uw" sourceNode="_dgbN0E-cEeix04lL6rP9Uw" targetNode="_fAmAEE-cEeix04lL6rP9Uw">
+      <target xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iN7ewE-cEeix04lL6rP9Uw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@edgeMappings[name='supervisor']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_iN7ewU-cEeix04lL6rP9Uw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@edgeMappings[name='supervisor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ihdewE-cEeix04lL6rP9Uw" sourceNode="_fAmAEE-cEeix04lL6rP9Uw" targetNode="_hBuKUE-cEeix04lL6rP9Uw">
+      <target xmi:type="employeemanagement:Manager" href="Writers.employee#//@containedElements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iheF0E-cEeix04lL6rP9Uw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@edgeMappings[name='supervisor']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_iheF0U-cEeix04lL6rP9Uw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer/@edgeMappings[name='supervisor']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_cQ3qdE-cEeix04lL6rP9Uw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/edu.kit.ipd.sdq.employeemanagement.siriuseditor/description/employeemanagement.odesign#//@ownedViewpoints[name='employee-structure']/@ownedRepresentations[name='Employee%20Hierarchy']/@defaultLayer"/>
+    <target xmi:type="ecore:RootContainer" href="Writers.employee#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
